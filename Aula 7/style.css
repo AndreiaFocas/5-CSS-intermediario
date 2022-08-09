@@ -1,0 +1,37 @@
+
+
+p::first-line{
+    color:orange
+}
+
+p::first-letter{
+    color: red;
+    font-size: 50px;
+}
+
+h1::before{
+    background: url(https://st3.depositphotos.com/4060975/17065/v/950/depositphotos_170650248-stock-illustration-hot-food-vector-icon.jpg);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    content:"";
+    margin-right: 10px;
+
+}
+
+h1::after{
+    background: url(https://st3.depositphotos.com/4060975/17065/v/950/depositphotos_170650248-stock-illustration-hot-food-vector-icon.jpg);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    content:"";
+    margin-left: 10px;
+
+}
+
+::selection{
+    color:pink;
+    background: black;
+}
